@@ -1520,7 +1520,7 @@ int main(){
             intPoints.insert(tri1.first.first->points[1]);
             intPoints.insert(tri1.first.first->points[2]);
         }
-        intPoints.insert(new Point2dim(SrcXMin+(iter/4.0),TarXMin));
+        intPoints.insert(new Point2dim(SrcXMin+(iter/16.0),TarXMin));
         cout<<"size array"<<intermediate_shapes.size()<<endl;
         for(auto tri1:intPoints){
             resPoints.push_back(tri1);
